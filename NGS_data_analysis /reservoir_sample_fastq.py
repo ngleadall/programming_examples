@@ -101,3 +101,9 @@ def res_sample(insample_id, read_number):
 
     out_fq1.close()
     out_fq2.close()
+
+
+if len(sys.argv) == 3:
+    res_sample( str(sys.argv[1]) , str(sys.argv[2]) )
+else:
+    print "Please specify a sample name and desired number of reads as arguments"
