@@ -74,3 +74,8 @@ def ref_find(inbam):
     print "ref_find module has made a high quality bamfile called %s" % outbam
     make_HQ_bam(inbam, outbam)
     return find_best_ref(outbam)
+
+if len(sys.argv) == 2:
+    ref_find(str(sys.argv[1]))
+else:
+    print "Please specify a single bamfile"
