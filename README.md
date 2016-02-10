@@ -1,6 +1,6 @@
 # Programming Examples
 
-This repo contains examples of python and r code created by Nicholas Gleadall.
+This repository contains examples of python and r code created by Nicholas Gleadall.
 nicholas.gleadall@googlemail.com
 Below is a brief explanation of each tool.  
 
