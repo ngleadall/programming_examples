@@ -91,4 +91,7 @@ provides a function for creating subprocesses.
 This script has the added advantage of manually setting verbose level (for reporting of errors during de-bugging)
 new tools.
 
+<hr>
+
+I would like to thank Dr. Kim Brugger for creative input, guidance and supervision during the creation of these tools.
 </body>
