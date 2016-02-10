@@ -1,7 +1,12 @@
 # Programming Examples
 
 This repo contains examples of python and r code created by Nicholas Gleadall.
+nicholas.gleadall@googlemail.com
 Below is a brief explanation of each tool.  
+
+NOTE: Most of these are modified examples from a larger analysis framework. There
+may be dependencies which are not installed on your system.
+
 
 NGS_data_analysis
 =================
@@ -55,3 +60,35 @@ of a single sample and the prevelance at which each mutation was observed at.
 
 analysis_pipelines
 ==================
+<body>
+Here are two examples of two bespoke automated analysis pipelines for assembly of next generation sequencing data obtained from the Illumina platform.
+
+<b>HIV_subtyping_pipeline.py</b><BR>
+
+Usage = $ python HIV_subtyping_pipeline.py "sample name"
+
+The aim of this pipeline is to identify the subtype of a given HIV-1 sample.
+
+The pipeline links together previous tools such as "reservoir_sample_fastq" and "bam_ref_find"
+in order (1) quickly identify which reference strain a subset of the reads are mapping to then (2)
+report this information and then (3) remap all original reads to this reference strain alone.
+
+<b>read_unclip_analysis.py</b><BR>
+
+Usage = python read_unclip_analysis.py "sample name"
+
+This pipeline produces two sequence alignments from raw read data (fastq's), one which is a "standard" alignment
+and another which all "soft-clipped/hidden" reads are "unclipped/shown".
+
+This can be helpful when designing alignment algorithms to visualise the level of quality filtering being applied by
+an alignment tool (here SMALT is used).
+
+<b> pipeliners.py </b><BR>
+
+This script was included as it is a commonly used tool. Its function is to be called within other scripts and
+provides a function for creating subprocesses.
+
+This script has the added advantage of manually setting verbose level (for reporting of errors during de-bugging)
+new tools.
+
+</body>
