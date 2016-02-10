@@ -18,7 +18,7 @@ Usage = $ python bam_ref_find.py "bamfile"
 Script which streams a .bamfile, 'soft clips' reads below the
 desired quality and then writes the remaining reads to a new HQ bamfile.
 
-It then streams the new HQ bamfile, building a dictionary of reference ID' and
+It then streams the new HQ bamfile, building a dictionary of reference ID's and
 counts how many reads are mapped to each one. It then returns the translated name
 of most "mapped to" reference strain.
 
