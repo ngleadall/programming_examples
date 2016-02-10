@@ -30,3 +30,8 @@ to write a set number of random read pairs to two new fastq files.
 This tool is for subsetting random reads from samples as required for bespoke analysis.
 
 </body>
+
+R_data_plotting
+===============
+
+<body>
