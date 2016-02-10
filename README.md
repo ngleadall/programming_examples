@@ -29,7 +29,7 @@ in the latest human genome build HG38/GRCh38.
 
 Usage = $ python reservoir_sample_fastq.py "sample name" "number of reads desired"
 
-Streams reads from a pair of fastq files (produced by Illumina sequencing), uses a reservoir sampling technique
+Streams reads from a pair of fastq files (produced by Illumina sequencing), using reservoir sampling technique
 to write a set number of random read pairs to two new fastq files.
 
 This tool is for subsetting random reads from samples as required for bespoke analysis.
