@@ -93,5 +93,5 @@ new tools.
 
 <hr>
 
-I would like to thank Dr. Kim Brugger for creative input, guidance and supervision during the creation of these tools.
+I would like to thank <b>Dr. Kim Brugger</b> for creative input, guidance and supervision during the creation of these tools.
 </body>
