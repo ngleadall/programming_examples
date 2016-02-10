@@ -6,7 +6,7 @@ Below is a brief explanation of each tool.
 NGS_data_analysis
 =================
 
-bam_ref_find.py
+<b>bam_ref_find.py</b>
 
 this looks through a .bamfile, 'soft clips' reads below the
-desired quality and then writes the reamining reads to a new HQ bamfile. 
+desired quality and then writes the reamining reads to a new HQ bamfile.
